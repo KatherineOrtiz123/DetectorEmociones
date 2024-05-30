@@ -1,0 +1,20 @@
+# Desarrollo Prototipo de Face.js
+## Descripción
+EEl prototipo se basa en una aplicación web que permite a los usuarios cargar imágenes y recibir una evaluación sobre las emociones que estas transmiten. Para lograr esto, utiliza una combinación de tecnologías, incluida una red neuronal convolucional entrenada previamente, específicamente diseñada para la detección de emociones en imágenes. La aplicación está construida utilizando el framework FastAPI de Python para el backend, que proporciona una interfaz de programación de aplicaciones (API) RESTful para manejar las solicitudes de los usuarios y procesar las imágenes cargadas.
+
+El frontend de la aplicación está desarrollado con HTML, CSS y JavaScript, con jQuery para simplificar las interacciones del usuario y realizar solicitudes AJAX al servidor. Esto permite una experiencia de usuario fluida y receptiva al cargar y procesar imágenes. Además, se incluyen archivos de estilos CSS y scripts JavaScript para mejorar la presentación y la funcionalidad de la interfaz web.
+
+## Tecnologías usadas
+
+FastAPI: FastAPI es un framework web de Python de alto rendimiento, diseñado para crear APIs RESTful de forma rápida y sencilla. Proporciona una sintaxis intuitiva basada en decoradores y ofrece una gran velocidad de procesamiento gracias a la integración con Starlette y Pydantic.Se utiliza FastAPI para construir el backend de la aplicación, gestionar las solicitudes de los usuarios y procesar las imágenes cargadas.
+
+HTML, CSS y JavaScript: Estas son las tecnologías fundamentales para el desarrollo de aplicaciones web. HTML se utiliza para estructurar el contenido de la página web, CSS se utiliza para estilizar y diseñar la apariencia de la página, y JavaScript se utiliza para agregar interactividad y funcionalidad dinámica a la aplicación.
+
+jQuery: jQuery es una biblioteca de JavaScript que simplifica la manipulación del DOM (Document Object Model) y el manejo de eventos en páginas web. Permite escribir menos código y lograr más en comparación con JavaScript puro, gracias a su sintaxis simplificada y su amplia gama de métodos y funciones predefinidos. En este prototipo, jQuery se utiliza para simplificar las interacciones del usuario y realizar solicitudes AJAX al servidor para cargar y procesar imágenes de manera dinámica.
+
+TensorFlow y TensorFlow Hub: TensorFlow es una biblioteca de código abierto desarrollada por Google para el aprendizaje automático y el desarrollo de modelos de redes neuronales. TensorFlow Hub es una plataforma que proporciona modelos de aprendizaje automático preentrenados para una variedad de tareas. Para este caso, se utiliza un modelo preentrenado de TensorFlow Hub para la detección de emociones en imágenes. Esto permite analizar rápidamente las imágenes cargadas por los usuarios y determinar la emoción predominante en cada una de ellas.
+
+## Autores
+
+- Juan Esteban Acosta Rodriguez
+- Katherine Michelle Ortiz Burgos
